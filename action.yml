@@ -1,0 +1,10 @@
+name : 'Hello Action'
+description: 'A simple GitHub Action that prints "Hello, World!"'
+inputs:
+  name:
+    description: 'Name to greet'
+    required: true
+    default: 'Dipesh'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
