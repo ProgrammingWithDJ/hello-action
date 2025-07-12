@@ -2,6 +2,7 @@ name : 'Hello Action'
 description: 'A simple GitHub Action that prints "Hello, World!"'
 inputs:
   name:
+  
     description: 'Name to greet'
     required: true
     default: 'Dipesh'
